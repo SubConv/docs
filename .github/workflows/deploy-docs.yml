@@ -5,9 +5,6 @@ on:
   push:
     branches:
       - main
-    paths:
-      - 'docs/**'
-      - '.github/workflows/deploy-docs.yml'
 
 env:
   TZ: Asia/Shanghai
