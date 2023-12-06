@@ -17,7 +17,7 @@ export default defineConfig({
       pattern: 'https://github.com/SubConv/SubConv/edit/main/docs/:path'
     },
     footer: {
-      message: 'Released under the MIT License.',
+      message: 'Released under the MPL-2.0 License.',
       copyright: 'Copyright © 2022-present wouiSB'
     }
   }
