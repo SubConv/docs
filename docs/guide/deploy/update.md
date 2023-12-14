@@ -2,7 +2,7 @@
 
 ## If deployed on Vercel
 When your forked repository is out of date, you can sync it with the original repository according to the picture below:  
-![image](https://user-images.githubusercontent.com/61449208/241410800-0f0be65a-a459-49f6-92d3-8f8ceeb4baf5.png)  
+![image](/assets/deploy/update.png)  
 After that, vercel will redeploy automatically.  
 
 ## If deployed on your VPS
