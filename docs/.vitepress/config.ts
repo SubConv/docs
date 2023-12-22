@@ -5,6 +5,7 @@ import locales from './locales'
 export default defineConfig({
   title: 'SubConv',
   locales: locales.locales,
+  base: '/',
   head: [
     ['link', { rel: 'icon', href: '/favicon.png' }],
   ],
