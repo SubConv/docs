@@ -32,10 +32,8 @@ example: suppose you need `example.is-an.app`
 ```
 
 ## 步骤
-### 启用 Actions
+### Fork 这个仓库
 1. Fork 这个仓库。按钮在仓库页面的右上角。你可以在新标签页中打开它。  
-2. 切换到 "Actions" 菜单并启用它。然后手动触发一次 action 来缓存规则。（通常你以后不需要再这么做了）
-   <img src="/assets/deploy/vercel_mkcache.png" width=600rem>
 
 ### 部署 SubConv
 然后你应该在 Vercel 上部署它，并添加你自己的域名（我称之为 sun-conv 的域名）。如果你熟悉 Vercel，可以跳过这部分。  

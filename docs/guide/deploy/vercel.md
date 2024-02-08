@@ -30,11 +30,10 @@ example: suppose you need `example.is-an.app`
   "proxy": false
 }
 ```
+
 ## Steps
-### Enable Actions
+### Fork this repo
 1. Fork this repo. The button is on the up-right side of repo page. You can open it in the new page.  
-2. switch into "Actions" menu and enable it. Then manually trigger the action for the first time to cache the rules. (Normally you don't need to do this later anymore)
-   <img src="/assets/deploy/vercel_mkcache.png" width=600rem>
 
 ### Deploy SubConv
 Then you should deploy this on Vercel and add you own domain (I call this **sun-conv's domain**). If you are familiar with Vercel, go ahead and skip this part.  
