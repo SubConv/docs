@@ -33,7 +33,7 @@ example: suppose you need `example.is-an.app`
 
 ## Steps
 ### Fork this repo
-1. Fork this repo. The button is on the up-right side of repo page. You can open it in the new page.  
+1. Fork [SubConv](https://github.com/SubConv/SubConv). If you need ZJU's configuration, fork [SubConv-4-ZJU](https://github.com/SubConv/SubConv-4-ZJU). You can open it in a new tab.
 2. (optional) modify the configuration file `config.yaml`. For detailed configuration items, please refer to [Configuration](../configuration/overview)
 
 ### Deploy SubConv

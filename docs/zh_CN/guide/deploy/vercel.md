@@ -33,7 +33,7 @@ example: suppose you need `example.is-an.app`
 
 ## 步骤
 ### Fork 这个仓库
-1. Fork 这个仓库。按钮在仓库页面的右上角。你可以在新标签页中打开它。  
+1. Fork [SubConv](https://github.com/SubConv/SubConv)。如果需要ZJU配置，请fork [SubConv-4-ZJU](https://github.com/SubConv/SubConv-4-ZJU)。你可以在新标签页中打开它。
 2. （可选）修改配置文件 `config.yaml`。详细配置项请参考[配置](../configuration/overview)
 
 ### 部署 SubConv
