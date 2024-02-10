@@ -8,8 +8,11 @@ subconverter 是用 C++ 开发的，因此难以部署在 Serverless 平台上�
 ## 安全
 它部署在您自己的 Vercel 或 VPS 上，因此没有其他人可以看到您的数据。  
 
-## 使用 proxy-provider 实现自动更新
-其他订阅转换器通常不会实现自动更新。因此，如果您想在使用 Clash 核心时更新代理，您必须编写脚本。但是如果您使用 SubConv，您就不需要这样做，因为 SubConv 使用 proxy-provider（Clash 的一个特性）来实现自动更新。  
+## 支持各种协议和格式的原始订阅
+订阅和节点解析参考 [mihomo](https://github.com/MetaCubeX/mihomo/tree/Alpha/common/convert)，因此理论上支持所有 Mihomo (Clash Meta) 支持的协议和格式。
+
+## 使用 proxy-provider 和 rule-provider 实现自动更新
+使用了 proxy-provider 和 rule-provider，自动更新节点信息和规则。同时支持使用本服务代理获取 ruleset，用户即使无法访问 GitHub 也能正常获取规则（服务端需要能访问 GitHub）。
 
 ## 易于定制
 您可以通过修改配置文件来自定义规则集。同时，您也可以通过修改源代码来进行更深度的自定义。因为使用的语言 Python 非常接近自然语言。 

@@ -48,7 +48,8 @@ function sidebarGuide() {
       collapsed: false,
       items: [
         { text: '在 Vercel 上部署', link: '/zh_CN/guide/deploy/vercel' },
-        { text: '在 VPS 或 PC 上部署', link: '/zh_CN/guide/deploy/vps' },
+        { text: '使用 Docker 部署', link: '/zh_CN/guide/deploy/docker'},
+        { text: '在 VPS 或 PC 上部署（二进制文件）', link: '/zh_CN/guide/deploy/vps' },
         { text: '如何更新', link: '/zh_CN/guide/deploy/update' }
       ]
     },
@@ -56,9 +57,9 @@ function sidebarGuide() {
       text: '配置',
       collapsed: false,
       items: [
+        { text: '概述', link: '/zh_CN/guide/configuration/overview' },
         { text: '规则集', link: '/zh_CN/guide/configuration/rule-set' },
-        { text: 'Proxy Groups', link: '/zh_CN/guide/configuration/proxy-groups' },
-        { text: '规则自动缓存', link: '/zh_CN/guide/configuration/cache' }
+        { text: 'Proxy Groups', link: '/zh_CN/guide/configuration/proxy-groups' }
       ]
     },
     {

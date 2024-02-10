@@ -48,7 +48,8 @@ function sidebarGuide() {
       collapsed: false,
       items: [
         { text: 'Deploy on Vercel', link: '/guide/deploy/vercel' },
-        { text: 'Deploy on VPS or PC', link: '/guide/deploy/vps' },
+        { text: 'Deploy with Docker', link: '/guide/deploy/docker'},
+        { text: 'Deploy on VPS or PC (binary file)', link: '/guide/deploy/vps' },
         { text: 'How to Update', link: '/guide/deploy/update' }
       ]
     },
@@ -56,9 +57,9 @@ function sidebarGuide() {
       text: 'Configuration',
       collapsed: false,
       items: [
+        { text: 'Overview', link: '/guide/configuration/overview'},
         { text: 'Rule Set', link: '/guide/configuration/rule-set' },
-        { text: 'Proxy Groups', link: '/guide/configuration/proxy-groups' },
-        { text: 'Cache Rules Automatically', link: '/guide/configuration/cache' }
+        { text: 'Proxy Groups', link: '/guide/configuration/proxy-groups' }
       ]
     },
     {

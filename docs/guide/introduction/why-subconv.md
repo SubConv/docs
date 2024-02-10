@@ -8,8 +8,11 @@ subconverter is developed in C++, which is not easy to deploy as serverless func
 ## Safe
 It's deployed on your own Vercel or VPS, so nobody else can see your data.  
 
-## Using proxy-provider to implement auto-update
-Other subscription converters don't usually implement auto-update. So if you want to update the proxies while using clash core, you have make efforts to write scripts. But if you use SubConv, you don't need to do that because SubConv uses proxy-provider (a feature of Clash) to implement auto-update.  
+## Support Various Protocols and Formats of Original Subscriptions
+The subscription and node parsing are based on [mihomo](https://github.com/MetaCubeX/mihomo/tree/Alpha/common/convert), so it theoretically supports all protocols and formats supported by Mihomo (Clash Meta).
+
+## Automatically Update with proxy-provider and rule-provider
+It uses proxy-provider and rule-provider to automatically update the node information and rules. It also supports using this service to proxy the ruleset, so users can get the rules even if they can't access GitHub (the server needs to be able to access GitHub).
 
 ## Easy to Customize
 You can customize the rule sets by modifying the config file.  

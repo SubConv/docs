@@ -34,6 +34,7 @@ example: suppose you need `example.is-an.app`
 ## Steps
 ### Fork this repo
 1. Fork this repo. The button is on the up-right side of repo page. You can open it in the new page.  
+2. (optional) modify the configuration file `config.yaml`. For detailed configuration items, please refer to [Configuration](../configuration/overview)
 
 ### Deploy SubConv
 Then you should deploy this on Vercel and add you own domain (I call this **sun-conv's domain**). If you are familiar with Vercel, go ahead and skip this part.  
