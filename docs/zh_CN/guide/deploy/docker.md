@@ -22,6 +22,6 @@
 
     > ***注意***：这里的第一个 `8080` 是你想要映射到的端口，可以根据需要修改。
 
-3. 在该目录下运行 `docker compose run --rm subconv -G default > config.yaml` 生成默认配置文件。可以根据需要修改。如果需要使用 ZJU 的配置文件，可以使用 `docker compose run --rm subconv -G zju > config.yaml` 生成 ZJU 的配置文件。详细的配置项可以参考 [配置](../configuration/overview)
+3. 在该目录下运行 `docker compose run --rm -v ./config.yml:/app/config.yml subconv -G default` 生成默认配置文件。可以根据需要修改。如果需要使用 ZJU 的配置文件，可以使用 `docker compose run --rm -v ./config.yml:/app/config.yml subconv -G zju` 生成 ZJU 的配置文件。详细的配置项可以参考 [配置](../configuration/overview)
 4. 运行 `docker compose up -d` 来启动服务。
 5. 尽情享受吧
