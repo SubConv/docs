@@ -4,6 +4,7 @@
 
 ## 部署
 - [在 Vercel 上部署](/zh_CN/guide/deploy/vercel)  
+- [在 Docker 上部署](/zh_CN/guide/deploy/docker)
 - [在 VPS 上部署](/zh_CN/guide/deploy/vps)  
 
 ## 使用

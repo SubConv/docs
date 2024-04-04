@@ -4,6 +4,7 @@ To get started with SubConv, you can either deploy it on Vercel or deploy it on 
 
 ## Deploy
 - [Deploy on Vercel](/guide/deploy/vercel)
+- [Deploy on Docker](/guide/deploy/docker)
 - [Deploy on VPS](/guide/deploy/vps)
 
 ## Usage
