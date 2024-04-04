@@ -11,7 +11,7 @@ First make sure you have installed Docker and Docker Compose.
     version: '3'
     services:
       subconv:
-        image: ghcr.io/subconv/subconv:latest
+        image: wouisb/subconv:latest
         container_name: subconv
         restart: unless-stopped
         ports:
