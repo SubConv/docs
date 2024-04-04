@@ -22,12 +22,16 @@ features:
     details: 它可以轻松部署在 Vercel 或 VPS 上
   - title: 安全
     details: 它部署在您自己的 Vercel 或 VPS 上，因此没有其他人可以看到您的数据
-  - title: 使用 proxy-provider
-    details: 通过使用 proxy-provider，代理可以在任何平台上自动更新
+  - title: 使用 provider
+    details: 通过使用 proxy-provider 和 rule-provider，节点和规则可以在任何平台上自动更新
+  - title: 默认代理 rule-provider
+    details: 默认会代理 rule-provider，防止因无法访问 GitHub 而导致的规则更新失败
   - title: 易于定制
     details: 您可以通过修改配置文件来自定义规则集
   - title: 支持多个机场
     details: 它支持多个机场
   - title: 支持多种协议
     details: 它支持多种协议，包括 SS、SSR、Vmess、Vless、Trojan、Hysteria。还支持 base64 格式的订阅
+  - title: 支持显示剩余流量
+    details: 单订阅时支持显示剩余流量和用户信息
 ---

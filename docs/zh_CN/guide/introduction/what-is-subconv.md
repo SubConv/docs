@@ -8,16 +8,21 @@
 
 它易于部署，可以免费使用 [Vercel](https://vercel.com) 部署。  
 
-目前有 2 个版本的 SubConv：
-- [SubConv](https://github.com/SubConv/SubConv)  
-- [SubConv-4-ZJU](https://github.com/SubConv/SubConv-4-ZJU): 专为浙江大学学生定制的 SubConv  
+我们提供了一般用户的配置文件和ZJU配置文件
+
+## 截图
+
+![screenshot](/assets/screenshot.png)
 
 ## 特性
-- **易于部署**: 它可以轻松免费部署在 Vercel 上  
-- **支持多种格式和协议的订阅**: 它支持多种协议，包括 SS、SSR、Vmess、Vless、Trojan、Hysteria。还支持 base64 格式的订阅  
-- **支持多个机场**: 它支持多个机场  
-- **支持 proxy-provider**: 通过使用 proxy-provider，代理可以在任何平台上自动更新  
-- **支持显示剩余流量和总流量**: 仅适用于使用单个服务器，需要与您的机场和您正在使用的 Clash 客户端兼容。已知支持的客户端包括 Clash for Windows、Clash Verge、Stash、Clash Meta for Android 等  
-- **易于定制**: 您可以通过修改配置文件甚至源代码来自定义规则集  
-- **安全**: 它部署在您自己的 Vercel 账户上，因此没有其他人可以看到您的数据  
-- **有一个 Web UI**: 您可以使用 Web UI 轻松获取链接  
+
+- 支持Clash配置和V2ray格式的base64链接（即原始订阅不一定是Clash）
+- 一个可以勉强能看的订阅转换 Web-UI (感谢 [@Musanico](https://github.com/musanico))
+- 大体基于 ACL 的规则
+- 基于 proxy-provider 的节点自动更新
+- 基于 rule-provider 的规则自动更新
+- 支持代理 rule-provider 防止无法从 GitHub 获取规则集
+- 多机场用户提供了支持
+- 剩余流量和总流量的显示（单机场的时候才有用，需要你的机场和你用的Clash同时支持，已知Clash for Windows, Clash Verge, Stash, Clash Meta for Android等已支持）
+- 实现了订阅转换成 proxy-provider 的 api, (一般人也不会去用吧)
+- 支持配置文件

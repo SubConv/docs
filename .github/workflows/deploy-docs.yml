@@ -17,7 +17,7 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
-    if: github.repository == 'SubConv/SubConv.github.io'
+    if: github.repository == 'SubConv/docs'
     defaults:
       run:
         working-directory: docs
